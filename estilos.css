@@ -1,0 +1,232 @@
+
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
+@import url('https://fonts.googleapis.com/css?family=Coiny');
+
+body
+{
+    min-width:340px!important;
+}
+
+header{
+    background:#2c3e50;
+    color:#fff;
+    border-bottom: 1px solid #2c3e50;
+}
+
+.main{
+    background:#f2f2f2;
+    color:black;
+}
+aside{
+    background:#c0392b;
+    color:#fff;
+}
+footer{
+    background:#16a085;
+    color:#fff;
+}
+
+.color
+{
+     background:rgb(255,217,15);
+    color:white!important;
+}
+ 
+.misIconos
+{
+    font-size: 30px;
+    transition:padding .5s all ease;
+}
+
+.misIconos:hover
+{
+    /*font-size:35px;
+    transition-duration: .5seg all ease;   
+    cursor:pointer;*/
+    	padding: 3px 0;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+    cursor:pointer;
+}
+
+
+.miIcono
+{
+    margin-right: 5px;
+	font-size:25px;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+
+.hamburguesa
+{
+    color:white;
+    font-size:30px;
+    text-shadow:1px 1px black;
+}
+.miFondo
+{
+    background-color: #563d7c
+}
+
+.miTamanio
+{
+    height: auto;
+    min-height:500px;
+    
+}
+
+
+.miItem li
+{
+    margin-bottom:5px;
+}
+
+
+.miLink:hover a i{
+    	font-size:20px;
+	margin-top:-10px;
+    cursor:pointer;
+}
+
+.miItem
+{
+    text-decoration: none;
+    list-style: none;
+}
+.cajaFlexible
+{
+    display:flex;
+    
+}
+.centrador
+{
+    position:relative;
+}
+.imagen
+{
+    
+  
+}
+.ocultar
+{
+    display:none;
+}
+.miBorde
+{
+    border:1px solid black;
+}
+
+.misBordes
+{
+    border-width: 4px!important;
+}
+
+.miFuente
+{
+    font-family: 'Gloria Hallelujah', cursive;
+    color:white;
+    text-align:center;
+   
+    align-items: center;
+}
+
+.miFuente2
+{
+    font-family: 'Coiny', cursive;
+    color:white !important;
+    text-shadow:1px 1px black;
+}
+.miFuente3
+{
+    font-family: 'Coiny', cursive;
+    color:white !important;
+    text-shadow:1px 1px black;
+}
+
+.miFuente2:hover
+{
+    color:grey!important;
+}
+.flex-child
+{
+    align-items: center;
+    display: -ms-flex;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+        margin-bottom: 40px;
+    
+}
+.miDiv
+{
+    width: 100%;
+    height: 100%;
+}
+
+.miTitulo
+{
+    border-left:3px solid white;
+    padding-left:7px;
+}
+.flex-child2
+{
+        align-items: center;
+    display: -ms-flex;
+  display: -webkit-flex;
+  display: flex;
+  justify-content:space-between;
+  
+}
+.flex-child3
+{
+     align-items: center;
+    display: -ms-flex;
+  display: -webkit-flex;
+  display: flex;
+     flex-direction: column;
+        position: relative;
+    justify-content: space-between;
+}
+
+.miColor
+{
+    background-color:#3B83BD;
+}
+
+.miLista
+{
+   
+    display:flex;
+   justify-content: space-evenly;
+    width: 100%;
+    position: absolute;
+    top: 40%;
+
+}
+
+@media (max-width: 768px) { 
+ .miMargen { 
+    margin-bottom:40px; 
+    } 
+    .flex-child2
+    {
+  
+        flex-direction: row;
+    }
+  .miImagen
+    {
+            height: 230px;
+    }
+    
+}
+
+
+
+
+
+
+ 
